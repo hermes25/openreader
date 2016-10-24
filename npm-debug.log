@@ -1,0 +1,709 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'react-native-userdefaults-ios',
+1 verbose cli   '--save' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.3
+4 verbose install initial load of /Users/hermes/ReactProjects/Reader/package.json
+5 verbose installManyTop reading scoped package data from /Users/hermes/ReactProjects/Reader/node_modules/crypto-js/package.json
+6 verbose installManyTop reading scoped package data from /Users/hermes/ReactProjects/Reader/node_modules/react/package.json
+7 verbose installManyTop reading scoped package data from /Users/hermes/ReactProjects/Reader/node_modules/react-native/package.json
+8 verbose installManyTop reading scoped package data from /Users/hermes/ReactProjects/Reader/node_modules/react-native-actionsheet/package.json
+9 verbose installManyTop reading scoped package data from /Users/hermes/ReactProjects/Reader/node_modules/react-native-barcode-scanner-universal/package.json
+10 verbose installManyTop reading scoped package data from /Users/hermes/ReactProjects/Reader/node_modules/react-native-camera/package.json
+11 verbose installManyTop reading scoped package data from /Users/hermes/ReactProjects/Reader/node_modules/react-native-fs/package.json
+12 verbose installManyTop reading scoped package data from /Users/hermes/ReactProjects/Reader/node_modules/react-native-gallery/package.json
+13 verbose installManyTop reading scoped package data from /Users/hermes/ReactProjects/Reader/node_modules/react-native-progress/package.json
+14 verbose installManyTop reading scoped package data from /Users/hermes/ReactProjects/Reader/node_modules/react-native-scrollable-tab-view/package.json
+15 verbose installManyTop reading scoped package data from /Users/hermes/ReactProjects/Reader/node_modules/react-native-slider/package.json
+16 verbose installManyTop reading scoped package data from /Users/hermes/ReactProjects/Reader/node_modules/react-native-spinkit/package.json
+17 verbose installManyTop reading scoped package data from /Users/hermes/ReactProjects/Reader/node_modules/react-native-store/package.json
+18 verbose installManyTop reading scoped package data from /Users/hermes/ReactProjects/Reader/node_modules/react-native-swipeout/package.json
+19 verbose installManyTop reading scoped package data from /Users/hermes/ReactProjects/Reader/node_modules/react-native-toast/package.json
+20 verbose installManyTop reading scoped package data from /Users/hermes/ReactProjects/Reader/node_modules/react-native-vector-icons/package.json
+21 verbose installManyTop reading scoped package data from /Users/hermes/ReactProjects/Reader/node_modules/react-timer-mixin/package.json
+22 info package.json react-native-camera@0.3.8 No license field.
+23 info package.json react-native-spinkit@0.1.2 No license field.
+24 verbose readDependencies loading dependencies from /Users/hermes/ReactProjects/Reader/package.json
+25 silly cache add args [ 'react-native-userdefaults-ios', null ]
+26 verbose cache add spec react-native-userdefaults-ios
+27 silly cache add parsed spec Result {
+27 silly cache add   raw: 'react-native-userdefaults-ios',
+27 silly cache add   scope: null,
+27 silly cache add   name: 'react-native-userdefaults-ios',
+27 silly cache add   rawSpec: '',
+27 silly cache add   spec: 'latest',
+27 silly cache add   type: 'tag' }
+28 silly addNamed react-native-userdefaults-ios@latest
+29 verbose addNamed "latest" is being treated as a dist-tag for react-native-userdefaults-ios
+30 info addNameTag [ 'react-native-userdefaults-ios', 'latest' ]
+31 silly mapToRegistry name react-native-userdefaults-ios
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry data Result {
+34 silly mapToRegistry   raw: 'react-native-userdefaults-ios',
+34 silly mapToRegistry   scope: null,
+34 silly mapToRegistry   name: 'react-native-userdefaults-ios',
+34 silly mapToRegistry   rawSpec: '',
+34 silly mapToRegistry   spec: 'latest',
+34 silly mapToRegistry   type: 'tag' }
+35 silly mapToRegistry uri https://registry.npmjs.org/react-native-userdefaults-ios
+36 verbose addNameTag registry:https://registry.npmjs.org/react-native-userdefaults-ios not in flight; fetching
+37 verbose request uri https://registry.npmjs.org/react-native-userdefaults-ios
+38 verbose request no auth needed
+39 info attempt registry request try #1 at 21:32:17
+40 verbose request id 28697c1ac7002913
+41 http request GET https://registry.npmjs.org/react-native-userdefaults-ios
+42 http 200 https://registry.npmjs.org/react-native-userdefaults-ios
+43 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+43 verbose headers   etag: '"IHYJAWB66ZXYGFMCS164V8CO"',
+43 verbose headers   'content-type': 'application/json',
+43 verbose headers   'content-encoding': 'gzip',
+43 verbose headers   'cache-control': 'max-age=300',
+43 verbose headers   'content-length': '2970',
+43 verbose headers   'accept-ranges': 'bytes',
+43 verbose headers   date: 'Sun, 28 Aug 2016 13:32:19 GMT',
+43 verbose headers   via: '1.1 varnish',
+43 verbose headers   age: '0',
+43 verbose headers   connection: 'keep-alive',
+43 verbose headers   'x-served-by': 'cache-ams4443-AMS',
+43 verbose headers   'x-cache': 'MISS',
+43 verbose headers   'x-cache-hits': '0',
+43 verbose headers   'x-timer': 'S1472391139.091766,VS0,VE397',
+43 verbose headers   vary: 'Accept-Encoding' }
+44 silly get cb [ 200,
+44 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+44 silly get     etag: '"IHYJAWB66ZXYGFMCS164V8CO"',
+44 silly get     'content-type': 'application/json',
+44 silly get     'content-encoding': 'gzip',
+44 silly get     'cache-control': 'max-age=300',
+44 silly get     'content-length': '2970',
+44 silly get     'accept-ranges': 'bytes',
+44 silly get     date: 'Sun, 28 Aug 2016 13:32:19 GMT',
+44 silly get     via: '1.1 varnish',
+44 silly get     age: '0',
+44 silly get     connection: 'keep-alive',
+44 silly get     'x-served-by': 'cache-ams4443-AMS',
+44 silly get     'x-cache': 'MISS',
+44 silly get     'x-cache-hits': '0',
+44 silly get     'x-timer': 'S1472391139.091766,VS0,VE397',
+44 silly get     vary: 'Accept-Encoding' } ]
+45 verbose get saving react-native-userdefaults-ios to /Users/hermes/.npm/registry.npmjs.org/react-native-userdefaults-ios/.cache.json
+46 verbose correctMkdir /Users/hermes/.npm correctMkdir not in flight; initializing
+47 silly addNameTag next cb for react-native-userdefaults-ios with tag latest
+48 silly addNamed react-native-userdefaults-ios@0.1.3
+49 verbose addNamed "0.1.3" is a plain semver version for react-native-userdefaults-ios
+50 silly mapToRegistry name react-native-userdefaults-ios
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: 'react-native-userdefaults-ios',
+53 silly mapToRegistry   scope: null,
+53 silly mapToRegistry   name: 'react-native-userdefaults-ios',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag' }
+54 silly mapToRegistry uri https://registry.npmjs.org/react-native-userdefaults-ios
+55 verbose addRemoteTarball https://registry.npmjs.org/react-native-userdefaults-ios/-/react-native-userdefaults-ios-0.1.3.tgz not in flight; adding
+56 verbose addRemoteTarball [ 'https://registry.npmjs.org/react-native-userdefaults-ios/-/react-native-userdefaults-ios-0.1.3.tgz',
+56 verbose addRemoteTarball   '6903fca55e0de7164e7b364097a438033228e0b5' ]
+57 info retry fetch attempt 1 at 21:32:19
+58 info attempt registry request try #1 at 21:32:19
+59 http fetch GET https://registry.npmjs.org/react-native-userdefaults-ios/-/react-native-userdefaults-ios-0.1.3.tgz
+60 http fetch 200 https://registry.npmjs.org/react-native-userdefaults-ios/-/react-native-userdefaults-ios-0.1.3.tgz
+61 silly fetchAndShaCheck shasum 6903fca55e0de7164e7b364097a438033228e0b5
+62 verbose addTmpTarball /var/folders/3g/75wj0tss1jsb99wxvqs9w5_00000gn/T/npm-10648-e839b0fb/registry.npmjs.org/react-native-userdefaults-ios/-/react-native-userdefaults-ios-0.1.3.tgz not in flight; adding
+63 verbose addTmpTarball already have metadata; skipping unpack for react-native-userdefaults-ios@0.1.3
+64 verbose correctMkdir /Users/hermes/.npm correctMkdir not in flight; initializing
+65 silly cache afterAdd react-native-userdefaults-ios@0.1.3
+66 verbose afterAdd /Users/hermes/.npm/react-native-userdefaults-ios/0.1.3/package/package.json not in flight; writing
+67 verbose correctMkdir /Users/hermes/.npm correctMkdir not in flight; initializing
+68 verbose afterAdd /Users/hermes/.npm/react-native-userdefaults-ios/0.1.3/package/package.json written
+69 silly install resolved [ { name: 'react-native-userdefaults-ios',
+69 silly install resolved     version: '0.1.3',
+69 silly install resolved     description: 'React Native Module for NSUserDefaults',
+69 silly install resolved     main: 'RNUserDefaultsIOS.js',
+69 silly install resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+69 silly install resolved     repository:
+69 silly install resolved      { type: 'git',
+69 silly install resolved        url: 'git+ssh://git@github.com/dsibiski/react-native-userdefaults-ios.git' },
+69 silly install resolved     files:
+69 silly install resolved      [ 'RNUserDefaultsIOS.xcodeproj',
+69 silly install resolved        'RNUserDefaultsIOS/RNUserDefaultsIOS.h',
+69 silly install resolved        'RNUserDefaultsIOS/RNUserDefaultsIOS.m',
+69 silly install resolved        'RNUserDefaultsIOS/UserDefaultsManager.h',
+69 silly install resolved        'RNUserDefaultsIOS/UserDefaultsManager.m',
+69 silly install resolved        'RNUserDefaultsIOS.js',
+69 silly install resolved        'README.md' ],
+69 silly install resolved     keywords:
+69 silly install resolved      [ 'react-component',
+69 silly install resolved        'react-native',
+69 silly install resolved        'ios',
+69 silly install resolved        'nsuserdefaults',
+69 silly install resolved        'standarduserdefaults',
+69 silly install resolved        'userdefaults' ],
+69 silly install resolved     author:
+69 silly install resolved      { name: 'Dave Sibiski',
+69 silly install resolved        email: 'dsibiski@gmail.com',
+69 silly install resolved        url: 'https://github.com/dsibiski' },
+69 silly install resolved     license: 'MIT',
+69 silly install resolved     dependencies: { bluebird: '^2.9.25' },
+69 silly install resolved     peerDependencies: { 'react-native': '>= 0.4.4 < 1' },
+69 silly install resolved     gitHead: 'be015673b794215fec883c2801fe5257f55bbf6f',
+69 silly install resolved     bugs: { url: 'https://github.com/dsibiski/react-native-userdefaults-ios/issues' },
+69 silly install resolved     homepage: 'https://github.com/dsibiski/react-native-userdefaults-ios#readme',
+69 silly install resolved     _id: 'react-native-userdefaults-ios@0.1.3',
+69 silly install resolved     _shasum: '6903fca55e0de7164e7b364097a438033228e0b5',
+69 silly install resolved     _from: 'react-native-userdefaults-ios@latest',
+69 silly install resolved     _npmVersion: '2.9.0',
+69 silly install resolved     _nodeVersion: '2.0.1',
+69 silly install resolved     _npmUser: { name: 'dsibiski', email: 'dsibiski@gmail.com' },
+69 silly install resolved     dist:
+69 silly install resolved      { shasum: '6903fca55e0de7164e7b364097a438033228e0b5',
+69 silly install resolved        tarball: 'https://registry.npmjs.org/react-native-userdefaults-ios/-/react-native-userdefaults-ios-0.1.3.tgz' },
+69 silly install resolved     maintainers: [ [Object] ],
+69 silly install resolved     directories: {},
+69 silly install resolved     _resolved: 'https://registry.npmjs.org/react-native-userdefaults-ios/-/react-native-userdefaults-ios-0.1.3.tgz' } ]
+70 info install react-native-userdefaults-ios@0.1.3 into /Users/hermes/ReactProjects/Reader
+71 info installOne react-native-userdefaults-ios@0.1.3
+72 verbose installOne of react-native-userdefaults-ios to /Users/hermes/ReactProjects/Reader not in flight; installing
+73 verbose correctMkdir /Users/hermes/.npm/_locks correctMkdir not in flight; initializing
+74 verbose lock using /Users/hermes/.npm/_locks/react-native-userdefault-3dfa21164566b796.lock for /Users/hermes/ReactProjects/Reader/node_modules/react-native-userdefaults-ios
+75 silly install write writing react-native-userdefaults-ios 0.1.3 to /Users/hermes/ReactProjects/Reader/node_modules/react-native-userdefaults-ios
+76 verbose unbuild node_modules/react-native-userdefaults-ios
+77 silly gentlyRm /Users/hermes/ReactProjects/Reader/node_modules/react-native-userdefaults-ios is being purged from base /Users/hermes/ReactProjects/Reader
+78 verbose gentlyRm don't care about contents; nuking /Users/hermes/ReactProjects/Reader/node_modules/react-native-userdefaults-ios
+79 verbose tar unpack /Users/hermes/.npm/react-native-userdefaults-ios/0.1.3/package.tgz
+80 verbose tar unpacking to /Users/hermes/ReactProjects/Reader/node_modules/react-native-userdefaults-ios
+81 silly gentlyRm /Users/hermes/ReactProjects/Reader/node_modules/react-native-userdefaults-ios is being purged
+82 verbose gentlyRm don't care about contents; nuking /Users/hermes/ReactProjects/Reader/node_modules/react-native-userdefaults-ios
+83 silly gunzTarPerm modes [ '755', '644' ]
+84 silly gunzTarPerm extractEntry package.json
+85 silly gunzTarPerm extractEntry README.md
+86 silly gunzTarPerm extractEntry RNUserDefaultsIOS.js
+87 silly gunzTarPerm extractEntry RNUserDefaultsIOS/RNUserDefaultsIOS.h
+88 silly gunzTarPerm extractEntry RNUserDefaultsIOS/RNUserDefaultsIOS.m
+89 silly gunzTarPerm extractEntry RNUserDefaultsIOS/UserDefaultsManager.h
+90 silly gunzTarPerm extractEntry RNUserDefaultsIOS/UserDefaultsManager.m
+91 silly gunzTarPerm extractEntry RNUserDefaultsIOS.xcodeproj/project.pbxproj
+92 silly gunzTarPerm extractEntry RNUserDefaultsIOS.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+93 silly gunzTarPerm extractEntry RNUserDefaultsIOS.xcodeproj/project.xcworkspace/xcuserdata/Dave.xcuserdatad/UserInterfaceState.xcuserstate
+94 silly gunzTarPerm extractEntry RNUserDefaultsIOS.xcodeproj/xcshareddata/xcschemes/RNUserDefaultsIOS.xcscheme
+95 silly gunzTarPerm extractEntry RNUserDefaultsIOS.xcodeproj/xcuserdata/Dave.xcuserdatad/xcschemes/xcschememanagement.plist
+96 verbose write writing to /Users/hermes/ReactProjects/Reader/node_modules/react-native-userdefaults-ios/package.json
+97 info preinstall react-native-userdefaults-ios@0.1.3
+98 verbose readDependencies loading dependencies from /Users/hermes/ReactProjects/Reader/node_modules/react-native-userdefaults-ios/package.json
+99 silly prepareForInstallMany adding bluebird@^2.9.25 from react-native-userdefaults-ios dependencies
+100 verbose readDependencies loading dependencies from /Users/hermes/ReactProjects/Reader/node_modules/react-native-userdefaults-ios/package.json
+101 silly cache add args [ 'bluebird@^2.9.25', null ]
+102 verbose cache add spec bluebird@^2.9.25
+103 silly cache add parsed spec Result {
+103 silly cache add   raw: 'bluebird@^2.9.25',
+103 silly cache add   scope: null,
+103 silly cache add   name: 'bluebird',
+103 silly cache add   rawSpec: '^2.9.25',
+103 silly cache add   spec: '>=2.9.25 <3.0.0',
+103 silly cache add   type: 'range' }
+104 silly addNamed bluebird@>=2.9.25 <3.0.0
+105 verbose addNamed ">=2.9.25 <3.0.0" is a valid semver range for bluebird
+106 silly addNameRange { name: 'bluebird', range: '>=2.9.25 <3.0.0', hasData: false }
+107 silly mapToRegistry name bluebird
+108 silly mapToRegistry using default registry
+109 silly mapToRegistry registry https://registry.npmjs.org/
+110 silly mapToRegistry data Result {
+110 silly mapToRegistry   raw: 'bluebird',
+110 silly mapToRegistry   scope: null,
+110 silly mapToRegistry   name: 'bluebird',
+110 silly mapToRegistry   rawSpec: '',
+110 silly mapToRegistry   spec: 'latest',
+110 silly mapToRegistry   type: 'tag' }
+111 silly mapToRegistry uri https://registry.npmjs.org/bluebird
+112 verbose addNameRange registry:https://registry.npmjs.org/bluebird not in flight; fetching
+113 verbose request uri https://registry.npmjs.org/bluebird
+114 verbose request no auth needed
+115 info attempt registry request try #1 at 21:32:20
+116 verbose etag "1OKM6RRZ4EXWZRGUK2WER88WU"
+117 http request GET https://registry.npmjs.org/bluebird
+118 http 200 https://registry.npmjs.org/bluebird
+119 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+119 verbose headers   etag: '"1OCLD609BUJIAPYU0H3RTC5O8"',
+119 verbose headers   'content-type': 'application/json',
+119 verbose headers   'content-encoding': 'gzip',
+119 verbose headers   'cache-control': 'max-age=300',
+119 verbose headers   'content-length': '34347',
+119 verbose headers   'accept-ranges': 'bytes',
+119 verbose headers   date: 'Sun, 28 Aug 2016 13:32:20 GMT',
+119 verbose headers   via: '1.1 varnish',
+119 verbose headers   age: '290',
+119 verbose headers   connection: 'keep-alive',
+119 verbose headers   'x-served-by': 'cache-ams4443-AMS',
+119 verbose headers   'x-cache': 'HIT',
+119 verbose headers   'x-cache-hits': '3',
+119 verbose headers   'x-timer': 'S1472391140.903680,VS0,VE0',
+119 verbose headers   vary: 'Accept-Encoding' }
+120 silly get cb [ 200,
+120 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+120 silly get     etag: '"1OCLD609BUJIAPYU0H3RTC5O8"',
+120 silly get     'content-type': 'application/json',
+120 silly get     'content-encoding': 'gzip',
+120 silly get     'cache-control': 'max-age=300',
+120 silly get     'content-length': '34347',
+120 silly get     'accept-ranges': 'bytes',
+120 silly get     date: 'Sun, 28 Aug 2016 13:32:20 GMT',
+120 silly get     via: '1.1 varnish',
+120 silly get     age: '290',
+120 silly get     connection: 'keep-alive',
+120 silly get     'x-served-by': 'cache-ams4443-AMS',
+120 silly get     'x-cache': 'HIT',
+120 silly get     'x-cache-hits': '3',
+120 silly get     'x-timer': 'S1472391140.903680,VS0,VE0',
+120 silly get     vary: 'Accept-Encoding' } ]
+121 verbose get saving bluebird to /Users/hermes/.npm/registry.npmjs.org/bluebird/.cache.json
+122 verbose correctMkdir /Users/hermes/.npm correctMkdir not in flight; initializing
+123 silly addNameRange number 2 { name: 'bluebird', range: '>=2.9.25 <3.0.0', hasData: true }
+124 silly addNameRange versions [ 'bluebird',
+124 silly addNameRange   [ '0.7.1-1',
+124 silly addNameRange     '0.7.1-2',
+124 silly addNameRange     '0.7.1-3',
+124 silly addNameRange     '0.7.1-4',
+124 silly addNameRange     '0.7.1-5',
+124 silly addNameRange     '0.7.2-0',
+124 silly addNameRange     '0.7.3-0',
+124 silly addNameRange     '0.7.4-0',
+124 silly addNameRange     '0.7.4-1',
+124 silly addNameRange     '0.7.5-0',
+124 silly addNameRange     '0.7.6-0',
+124 silly addNameRange     '0.7.7-0',
+124 silly addNameRange     '0.7.7-1',
+124 silly addNameRange     '0.7.8-0',
+124 silly addNameRange     '0.7.8-1',
+124 silly addNameRange     '0.7.9-0',
+124 silly addNameRange     '0.7.9-1',
+124 silly addNameRange     '0.7.10-0',
+124 silly addNameRange     '0.7.10-1',
+124 silly addNameRange     '0.7.11-0',
+124 silly addNameRange     '0.7.12-0',
+124 silly addNameRange     '0.7.12-1',
+124 silly addNameRange     '0.7.12-2',
+124 silly addNameRange     '0.8.0-0',
+124 silly addNameRange     '0.8.0-1',
+124 silly addNameRange     '0.8.0-2',
+124 silly addNameRange     '0.8.0-3',
+124 silly addNameRange     '0.8.1-0',
+124 silly addNameRange     '0.8.2-0',
+124 silly addNameRange     '0.8.2-1',
+124 silly addNameRange     '0.8.2-2',
+124 silly addNameRange     '0.8.3-0',
+124 silly addNameRange     '0.8.3-1',
+124 silly addNameRange     '0.8.3-2',
+124 silly addNameRange     '0.8.3-3',
+124 silly addNameRange     '0.8.4-0',
+124 silly addNameRange     '0.8.4-1',
+124 silly addNameRange     '0.8.5-0',
+124 silly addNameRange     '0.8.5-1',
+124 silly addNameRange     '0.9.0-0',
+124 silly addNameRange     '0.9.1-0',
+124 silly addNameRange     '0.9.1-1',
+124 silly addNameRange     '0.9.2-0',
+124 silly addNameRange     '0.9.2-1',
+124 silly addNameRange     '0.9.3-0',
+124 silly addNameRange     '0.9.4-0',
+124 silly addNameRange     '0.9.4-1',
+124 silly addNameRange     '0.9.5-0',
+124 silly addNameRange     '0.9.6-0',
+124 silly addNameRange     '0.9.7-0',
+124 silly addNameRange     '0.9.8-0',
+124 silly addNameRange     '0.9.9-0',
+124 silly addNameRange     '0.9.10-0',
+124 silly addNameRange     '0.9.10-1',
+124 silly addNameRange     '0.9.11-0',
+124 silly addNameRange     '0.9.11-1',
+124 silly addNameRange     '0.10.0-0',
+124 silly addNameRange     '0.10.0-1',
+124 silly addNameRange     '0.10.1-0',
+124 silly addNameRange     '0.10.2-0',
+124 silly addNameRange     '0.10.2-1',
+124 silly addNameRange     '0.10.3-0',
+124 silly addNameRange     '0.10.4-0',
+124 silly addNameRange     '0.10.4-1',
+124 silly addNameRange     '0.10.5-0',
+124 silly addNameRange     '0.10.6-0',
+124 silly addNameRange     '0.10.7-0',
+124 silly addNameRange     '0.10.8-0',
+124 silly addNameRange     '0.10.9-0',
+124 silly addNameRange     '0.10.9-1',
+124 silly addNameRange     '0.10.10-0',
+124 silly addNameRange     '0.10.11-0',
+124 silly addNameRange     '0.10.11-1',
+124 silly addNameRange     '0.10.11-2',
+124 silly addNameRange     '0.10.11-4',
+124 silly addNameRange     '0.10.12-0',
+124 silly addNameRange     '0.10.13-0',
+124 silly addNameRange     '0.10.13-1',
+124 silly addNameRange     '0.10.14-0',
+124 silly addNameRange     '0.11.0-0',
+124 silly addNameRange     '0.11.1-0',
+124 silly addNameRange     '0.11.2-0',
+124 silly addNameRange     '0.11.3-0',
+124 silly addNameRange     '0.11.4-0',
+124 silly addNameRange     '0.11.4-1',
+124 silly addNameRange     '0.11.5-0',
+124 silly addNameRange     '0.11.5-1',
+124 silly addNameRange     '0.11.6-0',
+124 silly addNameRange     '1.0.0',
+124 silly addNameRange     '1.0.1',
+124 silly addNameRange     '1.0.2',
+124 silly addNameRange     '1.0.3',
+124 silly addNameRange     '1.0.4',
+124 silly addNameRange     '1.0.5',
+124 silly addNameRange     '1.0.7',
+124 silly addNameRange     '1.0.8',
+124 silly addNameRange     '1.1.0',
+124 silly addNameRange     '1.1.1',
+124 silly addNameRange     '1.2.0',
+124 silly addNameRange     '1.2.1',
+124 silly addNameRange     '1.2.2',
+124 silly addNameRange     '1.2.3',
+124 silly addNameRange     '1.2.4',
+124 silly addNameRange     '2.0.2',
+124 silly addNameRange     '2.0.3',
+124 silly addNameRange     '2.0.4',
+124 silly addNameRange     '2.0.5',
+124 silly addNameRange     '2.0.6',
+124 silly addNameRange     '2.0.7',
+124 silly addNameRange     '2.1.1',
+124 silly addNameRange     '2.1.2',
+124 silly addNameRange     '2.1.3',
+124 silly addNameRange     '2.2.0',
+124 silly addNameRange     '2.2.1',
+124 silly addNameRange     '2.2.2',
+124 silly addNameRange     '2.3.0',
+124 silly addNameRange     '2.3.1',
+124 silly addNameRange     '2.3.2',
+124 silly addNameRange     '2.3.3',
+124 silly addNameRange     '2.3.4',
+124 silly addNameRange     '2.3.5',
+124 silly addNameRange     '0.11.6',
+124 silly addNameRange     '2.3.6',
+124 silly addNameRange     '2.3.9',
+124 silly addNameRange     '2.3.10',
+124 silly addNameRange     '2.3.11',
+124 silly addNameRange     '2.4.0',
+124 silly addNameRange     '2.4.1',
+124 silly addNameRange     '2.4.2',
+124 silly addNameRange     '2.4.3',
+124 silly addNameRange     '2.5.0',
+124 silly addNameRange     '2.5.1',
+124 silly addNameRange     '2.5.2',
+124 silly addNameRange     '2.5.3',
+124 silly addNameRange     '2.6.0',
+124 silly addNameRange     '2.6.1',
+124 silly addNameRange     '2.6.2',
+124 silly addNameRange     '2.6.3',
+124 silly addNameRange     '2.6.4',
+124 silly addNameRange     '2.7.0',
+124 silly addNameRange     '2.7.1',
+124 silly addNameRange     '2.8.0',
+124 silly addNameRange     '2.8.1',
+124 silly addNameRange     '2.8.2',
+124 silly addNameRange     '2.9.0',
+124 silly addNameRange     '2.9.1',
+124 silly addNameRange     '2.9.2',
+124 silly addNameRange     '2.9.3',
+124 silly addNameRange     '2.9.4',
+124 silly addNameRange     '2.9.5',
+124 silly addNameRange     '2.9.6',
+124 silly addNameRange     '2.9.7',
+124 silly addNameRange     '2.9.8',
+124 silly addNameRange     '2.9.9',
+124 silly addNameRange     '2.9.10',
+124 silly addNameRange     '2.9.11',
+124 silly addNameRange     '2.9.12',
+124 silly addNameRange     '2.9.13',
+124 silly addNameRange     '2.9.14',
+124 silly addNameRange     '2.9.15',
+124 silly addNameRange     '2.9.16',
+124 silly addNameRange     '2.9.17',
+124 silly addNameRange     '2.9.18',
+124 silly addNameRange     '2.9.19',
+124 silly addNameRange     '2.9.20',
+124 silly addNameRange     '2.9.21',
+124 silly addNameRange     '2.9.22',
+124 silly addNameRange     '2.9.23',
+124 silly addNameRange     '2.9.24',
+124 silly addNameRange     '2.9.25',
+124 silly addNameRange     '2.9.26',
+124 silly addNameRange     '2.9.27',
+124 silly addNameRange     '2.9.28',
+124 silly addNameRange     '2.9.29',
+124 silly addNameRange     '2.9.30',
+124 silly addNameRange     '2.9.31',
+124 silly addNameRange     '2.9.32',
+124 silly addNameRange     '2.9.33',
+124 silly addNameRange     '2.9.34',
+124 silly addNameRange     '2.10.0',
+124 silly addNameRange     '2.10.1',
+124 silly addNameRange     '2.10.2',
+124 silly addNameRange     '3.0.0',
+124 silly addNameRange     '3.0.1',
+124 silly addNameRange     '3.0.2',
+124 silly addNameRange     '3.0.3',
+124 silly addNameRange     '3.0.4',
+124 silly addNameRange     '3.0.5',
+124 silly addNameRange     '3.0.6',
+124 silly addNameRange     '3.1.0',
+124 silly addNameRange     '3.1.1',
+124 silly addNameRange     '3.1.2',
+124 silly addNameRange     '3.1.3',
+124 silly addNameRange     '3.1.4',
+124 silly addNameRange     '3.1.5',
+124 silly addNameRange     '3.2.0',
+124 silly addNameRange     '3.2.1',
+124 silly addNameRange     '3.2.2',
+124 silly addNameRange     '3.3.0',
+124 silly addNameRange     '3.3.1',
+124 silly addNameRange     '3.3.2',
+124 silly addNameRange     '3.3.3',
+124 silly addNameRange     '3.3.4',
+124 silly addNameRange     '3.3.5',
+124 silly addNameRange     '3.4.0',
+124 silly addNameRange     '3.4.1',
+124 silly addNameRange     '3.4.2',
+124 silly addNameRange     '3.4.3' ] ]
+125 silly addNamed bluebird@2.10.2
+126 verbose addNamed "2.10.2" is a plain semver version for bluebird
+127 silly cache afterAdd bluebird@2.10.2
+128 verbose afterAdd /Users/hermes/.npm/bluebird/2.10.2/package/package.json not in flight; writing
+129 verbose correctMkdir /Users/hermes/.npm correctMkdir not in flight; initializing
+130 verbose afterAdd /Users/hermes/.npm/bluebird/2.10.2/package/package.json written
+131 silly install resolved [ { name: 'bluebird',
+131 silly install resolved     description: 'Full featured Promises/A+ implementation with exceptionally good performance',
+131 silly install resolved     version: '2.10.2',
+131 silly install resolved     keywords:
+131 silly install resolved      [ 'promise',
+131 silly install resolved        'performance',
+131 silly install resolved        'promises',
+131 silly install resolved        'promises-a',
+131 silly install resolved        'promises-aplus',
+131 silly install resolved        'async',
+131 silly install resolved        'await',
+131 silly install resolved        'deferred',
+131 silly install resolved        'deferreds',
+131 silly install resolved        'future',
+131 silly install resolved        'flow control',
+131 silly install resolved        'dsl',
+131 silly install resolved        'fluent interface',
+131 silly install resolved        'parallel',
+131 silly install resolved        'thread',
+131 silly install resolved        'concurrency' ],
+131 silly install resolved     scripts:
+131 silly install resolved      { lint: 'node scripts/jshint.js',
+131 silly install resolved        test: 'node tools/test.js',
+131 silly install resolved        istanbul: 'istanbul',
+131 silly install resolved        prepublish: 'node tools/build.js --no-debug --main --zalgo --browser --minify',
+131 silly install resolved        'generate-browser-core': 'node tools/build.js --features=core --no-debug --main --zalgo --browser --minify && mv js/browser/bluebird.js js/browser/bluebird.core.js && mv js/browser/bluebird.min.js js/browser/bluebird.core.min.js' },
+131 silly install resolved     homepage: 'https://github.com/petkaantonov/bluebird',
+131 silly install resolved     repository:
+131 silly install resolved      { type: 'git',
+131 silly install resolved        url: 'git://github.com/petkaantonov/bluebird.git' },
+131 silly install resolved     bugs: { url: 'http://github.com/petkaantonov/bluebird/issues' },
+131 silly install resolved     license: 'MIT',
+131 silly install resolved     author:
+131 silly install resolved      { name: 'Petka Antonov',
+131 silly install resolved        email: 'petka_antonov@hotmail.com',
+131 silly install resolved        url: 'http://github.com/petkaantonov/' },
+131 silly install resolved     devDependencies:
+131 silly install resolved      { acorn: '~0.6.0',
+131 silly install resolved        baconjs: '^0.7.43',
+131 silly install resolved        bluebird: '^2.9.2',
+131 silly install resolved        'body-parser': '^1.10.2',
+131 silly install resolved        browserify: '^8.1.1',
+131 silly install resolved        'cli-table': '~0.3.1',
+131 silly install resolved        co: '^4.2.0',
+131 silly install resolved        'cross-spawn': '^0.2.3',
+131 silly install resolved        glob: '^4.3.2',
+131 silly install resolved        'grunt-saucelabs': '~8.4.1',
+131 silly install resolved        highland: '^2.3.0',
+131 silly install resolved        istanbul: '^0.3.5',
+131 silly install resolved        jshint: '^2.6.0',
+131 silly install resolved        'jshint-stylish': '~0.2.0',
+131 silly install resolved        mkdirp: '~0.5.0',
+131 silly install resolved        mocha: '~2.1',
+131 silly install resolved        open: '~0.0.5',
+131 silly install resolved        optimist: '~0.6.1',
+131 silly install resolved        rimraf: '~2.2.6',
+131 silly install resolved        rx: '^2.3.25',
+131 silly install resolved        'serve-static': '^1.7.1',
+131 silly install resolved        sinon: '~1.7.3',
+131 silly install resolved        'uglify-js': '~2.4.16',
+131 silly install resolved        kefir: '^2.4.1' },
+131 silly install resolved     main: './js/main/bluebird.js',
+131 silly install resolved     browser: './js/browser/bluebird.js',
+131 silly install resolved     files: [ 'js/browser', 'js/main', 'js/zalgo', 'zalgo.js' ],
+131 silly install resolved     gitHead: '02c0fd252cf7c0c86e6b27bb06422c404829b539',
+131 silly install resolved     _id: 'bluebird@2.10.2',
+131 silly install resolved     _shasum: '024a5517295308857f14f91f1106fc3b555f446b',
+131 silly install resolved     _from: 'bluebird@>=2.9.25 <3.0.0',
+131 silly install resolved     _npmVersion: '2.11.1',
+131 silly install resolved     _nodeVersion: '2.3.0',
+131 silly install resolved     _npmUser: { name: 'esailija', email: 'petka_antonov@hotmail.com' },
+131 silly install resolved     maintainers: [ [Object] ],
+131 silly install resolved     dist:
+131 silly install resolved      { shasum: '024a5517295308857f14f91f1106fc3b555f446b',
+131 silly install resolved        tarball: 'https://registry.npmjs.org/bluebird/-/bluebird-2.10.2.tgz' },
+131 silly install resolved     directories: {},
+131 silly install resolved     _resolved: 'https://registry.npmjs.org/bluebird/-/bluebird-2.10.2.tgz',
+131 silly install resolved     readme: 'ERROR: No README data found!' } ]
+132 info install bluebird@2.10.2 into /Users/hermes/ReactProjects/Reader/node_modules/react-native-userdefaults-ios
+133 info installOne bluebird@2.10.2
+134 verbose installOne of bluebird to /Users/hermes/ReactProjects/Reader/node_modules/react-native-userdefaults-ios not in flight; installing
+135 verbose correctMkdir /Users/hermes/.npm/_locks correctMkdir not in flight; initializing
+136 verbose lock using /Users/hermes/.npm/_locks/bluebird-fb0cd690d3f9d32e.lock for /Users/hermes/ReactProjects/Reader/node_modules/react-native-userdefaults-ios/node_modules/bluebird
+137 silly install write writing bluebird 2.10.2 to /Users/hermes/ReactProjects/Reader/node_modules/react-native-userdefaults-ios/node_modules/bluebird
+138 verbose unbuild node_modules/react-native-userdefaults-ios/node_modules/bluebird
+139 silly gentlyRm /Users/hermes/ReactProjects/Reader/node_modules/react-native-userdefaults-ios/node_modules/bluebird is being purged from base /Users/hermes/ReactProjects/Reader
+140 verbose gentlyRm don't care about contents; nuking /Users/hermes/ReactProjects/Reader/node_modules/react-native-userdefaults-ios/node_modules/bluebird
+141 verbose tar unpack /Users/hermes/.npm/bluebird/2.10.2/package.tgz
+142 verbose tar unpacking to /Users/hermes/ReactProjects/Reader/node_modules/react-native-userdefaults-ios/node_modules/bluebird
+143 silly gentlyRm /Users/hermes/ReactProjects/Reader/node_modules/react-native-userdefaults-ios/node_modules/bluebird is being purged
+144 verbose gentlyRm don't care about contents; nuking /Users/hermes/ReactProjects/Reader/node_modules/react-native-userdefaults-ios/node_modules/bluebird
+145 silly gunzTarPerm modes [ '755', '644' ]
+146 silly gunzTarPerm extractEntry package.json
+147 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+148 silly gunzTarPerm extractEntry README.md
+149 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+150 silly gunzTarPerm extractEntry LICENSE
+151 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+152 silly gunzTarPerm extractEntry changelog.md
+153 silly gunzTarPerm modified mode [ 'changelog.md', 436, 420 ]
+154 silly gunzTarPerm extractEntry js/browser/bluebird.js
+155 silly gunzTarPerm modified mode [ 'js/browser/bluebird.js', 436, 420 ]
+156 silly gunzTarPerm extractEntry js/browser/bluebird.min.js
+157 silly gunzTarPerm modified mode [ 'js/browser/bluebird.min.js', 436, 420 ]
+158 silly gunzTarPerm extractEntry js/main/any.js
+159 silly gunzTarPerm modified mode [ 'js/main/any.js', 436, 420 ]
+160 silly gunzTarPerm extractEntry js/main/finally.js
+161 silly gunzTarPerm modified mode [ 'js/main/finally.js', 436, 420 ]
+162 silly gunzTarPerm extractEntry js/main/generators.js
+163 silly gunzTarPerm modified mode [ 'js/main/generators.js', 436, 420 ]
+164 silly gunzTarPerm extractEntry js/main/join.js
+165 silly gunzTarPerm modified mode [ 'js/main/join.js', 436, 420 ]
+166 silly gunzTarPerm extractEntry js/main/filter.js
+167 silly gunzTarPerm modified mode [ 'js/main/filter.js', 436, 420 ]
+168 silly gunzTarPerm extractEntry js/main/method.js
+169 silly gunzTarPerm modified mode [ 'js/main/method.js', 436, 420 ]
+170 silly gunzTarPerm extractEntry js/main/nodeify.js
+171 silly gunzTarPerm modified mode [ 'js/main/nodeify.js', 436, 420 ]
+172 silly gunzTarPerm extractEntry js/main/progress.js
+173 silly gunzTarPerm modified mode [ 'js/main/progress.js', 436, 420 ]
+174 silly gunzTarPerm extractEntry js/main/promise.js
+175 silly gunzTarPerm modified mode [ 'js/main/promise.js', 436, 420 ]
+176 silly gunzTarPerm extractEntry js/main/promise_array.js
+177 silly gunzTarPerm modified mode [ 'js/main/promise_array.js', 436, 420 ]
+178 silly gunzTarPerm extractEntry js/main/es5.js
+179 silly gunzTarPerm modified mode [ 'js/main/es5.js', 436, 420 ]
+180 silly gunzTarPerm extractEntry js/main/promise_resolver.js
+181 silly gunzTarPerm modified mode [ 'js/main/promise_resolver.js', 436, 420 ]
+182 silly gunzTarPerm extractEntry js/main/errors.js
+183 silly gunzTarPerm modified mode [ 'js/main/errors.js', 436, 420 ]
+184 silly gunzTarPerm extractEntry js/main/promisify.js
+185 silly gunzTarPerm modified mode [ 'js/main/promisify.js', 436, 420 ]
+186 silly gunzTarPerm extractEntry js/main/each.js
+187 silly gunzTarPerm modified mode [ 'js/main/each.js', 436, 420 ]
+188 silly gunzTarPerm extractEntry js/main/props.js
+189 silly gunzTarPerm modified mode [ 'js/main/props.js', 436, 420 ]
+190 silly gunzTarPerm extractEntry js/main/direct_resolve.js
+191 silly gunzTarPerm modified mode [ 'js/main/direct_resolve.js', 436, 420 ]
+192 silly gunzTarPerm extractEntry js/main/queue.js
+193 silly gunzTarPerm modified mode [ 'js/main/queue.js', 436, 420 ]
+194 silly gunzTarPerm extractEntry js/main/debuggability.js
+195 silly gunzTarPerm modified mode [ 'js/main/debuggability.js', 436, 420 ]
+196 silly gunzTarPerm extractEntry js/main/race.js
+197 silly gunzTarPerm modified mode [ 'js/main/race.js', 436, 420 ]
+198 silly gunzTarPerm extractEntry js/main/context.js
+199 silly gunzTarPerm modified mode [ 'js/main/context.js', 436, 420 ]
+200 silly gunzTarPerm extractEntry js/main/reduce.js
+201 silly gunzTarPerm modified mode [ 'js/main/reduce.js', 436, 420 ]
+202 silly gunzTarPerm extractEntry js/main/catch_filter.js
+203 silly gunzTarPerm modified mode [ 'js/main/catch_filter.js', 436, 420 ]
+204 silly gunzTarPerm extractEntry js/main/schedule.js
+205 silly gunzTarPerm modified mode [ 'js/main/schedule.js', 436, 420 ]
+206 silly gunzTarPerm extractEntry js/main/captured_trace.js
+207 silly gunzTarPerm modified mode [ 'js/main/captured_trace.js', 436, 420 ]
+208 silly gunzTarPerm extractEntry js/main/settle.js
+209 silly gunzTarPerm modified mode [ 'js/main/settle.js', 436, 420 ]
+210 silly gunzTarPerm extractEntry js/main/cancel.js
+211 silly gunzTarPerm modified mode [ 'js/main/cancel.js', 436, 420 ]
+212 silly gunzTarPerm extractEntry js/main/some.js
+213 silly gunzTarPerm modified mode [ 'js/main/some.js', 436, 420 ]
+214 silly gunzTarPerm extractEntry js/main/call_get.js
+215 silly gunzTarPerm modified mode [ 'js/main/call_get.js', 436, 420 ]
+216 silly gunzTarPerm extractEntry js/main/synchronous_inspection.js
+217 silly gunzTarPerm modified mode [ 'js/main/synchronous_inspection.js', 436, 420 ]
+218 silly gunzTarPerm extractEntry js/main/bluebird.js
+219 silly gunzTarPerm modified mode [ 'js/main/bluebird.js', 436, 420 ]
+220 silly gunzTarPerm extractEntry js/main/thenables.js
+221 silly gunzTarPerm modified mode [ 'js/main/thenables.js', 436, 420 ]
+222 silly gunzTarPerm extractEntry js/main/bind.js
+223 silly gunzTarPerm modified mode [ 'js/main/bind.js', 436, 420 ]
+224 silly gunzTarPerm extractEntry js/main/timers.js
+225 silly gunzTarPerm modified mode [ 'js/main/timers.js', 436, 420 ]
+226 silly gunzTarPerm extractEntry js/main/async.js
+227 silly gunzTarPerm modified mode [ 'js/main/async.js', 436, 420 ]
+228 silly gunzTarPerm extractEntry js/main/using.js
+229 silly gunzTarPerm modified mode [ 'js/main/using.js', 436, 420 ]
+230 silly gunzTarPerm extractEntry js/main/assert.js
+231 silly gunzTarPerm modified mode [ 'js/main/assert.js', 436, 420 ]
+232 silly gunzTarPerm extractEntry js/main/util.js
+233 silly gunzTarPerm modified mode [ 'js/main/util.js', 436, 420 ]
+234 silly gunzTarPerm extractEntry js/main/map.js
+235 silly gunzTarPerm modified mode [ 'js/main/map.js', 436, 420 ]
+236 verbose write writing to /Users/hermes/ReactProjects/Reader/node_modules/react-native-userdefaults-ios/node_modules/bluebird/package.json
+237 info preinstall bluebird@2.10.2
+238 verbose readDependencies loading dependencies from /Users/hermes/ReactProjects/Reader/node_modules/react-native-userdefaults-ios/node_modules/bluebird/package.json
+239 verbose readDependencies loading dependencies from /Users/hermes/ReactProjects/Reader/node_modules/react-native-userdefaults-ios/node_modules/bluebird/package.json
+240 silly install resolved []
+241 verbose about to build /Users/hermes/ReactProjects/Reader/node_modules/react-native-userdefaults-ios/node_modules/bluebird
+242 info build /Users/hermes/ReactProjects/Reader/node_modules/react-native-userdefaults-ios/node_modules/bluebird
+243 info linkStuff bluebird@2.10.2
+244 silly linkStuff bluebird@2.10.2 has /Users/hermes/ReactProjects/Reader/node_modules/react-native-userdefaults-ios/node_modules as its parent node_modules
+245 verbose linkBins bluebird@2.10.2
+246 verbose linkMans bluebird@2.10.2
+247 verbose rebuildBundles bluebird@2.10.2
+248 info install bluebird@2.10.2
+249 info postinstall bluebird@2.10.2
+250 verbose unlock done using /Users/hermes/.npm/_locks/bluebird-fb0cd690d3f9d32e.lock for /Users/hermes/ReactProjects/Reader/node_modules/react-native-userdefaults-ios/node_modules/bluebird
+251 verbose about to build /Users/hermes/ReactProjects/Reader/node_modules/react-native-userdefaults-ios
+252 info build /Users/hermes/ReactProjects/Reader/node_modules/react-native-userdefaults-ios
+253 info linkStuff react-native-userdefaults-ios@0.1.3
+254 silly linkStuff react-native-userdefaults-ios@0.1.3 has /Users/hermes/ReactProjects/Reader/node_modules as its parent node_modules
+255 verbose linkBins react-native-userdefaults-ios@0.1.3
+256 verbose linkMans react-native-userdefaults-ios@0.1.3
+257 verbose rebuildBundles react-native-userdefaults-ios@0.1.3
+258 verbose rebuildBundles [ 'bluebird' ]
+259 info install react-native-userdefaults-ios@0.1.3
+260 info postinstall react-native-userdefaults-ios@0.1.3
+261 verbose unlock done using /Users/hermes/.npm/_locks/react-native-userdefault-3dfa21164566b796.lock for /Users/hermes/ReactProjects/Reader/node_modules/react-native-userdefaults-ios
+262 verbose validateInstall loading /Users/hermes/ReactProjects/Reader/package.json for validation
+263 verbose stack Error: The package react@0.14.8 does not satisfy its siblings' peerDependencies requirements!
+263 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+263 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+263 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+263 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+263 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+263 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+263 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+263 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+263 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+263 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+264 verbose cwd /Users/hermes/ReactProjects/Reader
+265 error Darwin 15.3.0
+266 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "react-native-userdefaults-ios" "--save"
+267 error node v4.4.3
+268 error npm  v2.15.1
+269 error code EPEERINVALID
+270 error peerinvalid The package react@0.14.8 does not satisfy its siblings' peerDependencies requirements!
+270 error peerinvalid Peer react-native@0.24.1 wants react@^0.14.5
+271 verbose exit [ 1, true ]

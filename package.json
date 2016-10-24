@@ -1,0 +1,22 @@
+{
+  "name": "Reader",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "react": "^0.14.8",
+    "react-native": "^0.24.1",
+    "react-native-barcode-scanner-universal": "^1.0.2",
+    "react-native-camera": "git+https://github.com/lwansbrough/react-native-camera.git",
+    "react-native-fs": "^1.4.0",
+    "react-native-scrollable-tab-view": "^0.4.1",
+    "react-native-slider": "^0.9.0",
+    "react-native-spinkit": "^0.1.2",
+    "react-native-store": "^0.4.1",
+    "react-native-swipeout": "^2.0.12",
+    "react-native-vector-icons": "^2.0.3",
+    "react-timer-mixin": "^0.13.3"
+  }
+}
